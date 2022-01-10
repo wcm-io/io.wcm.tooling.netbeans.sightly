@@ -24,8 +24,8 @@
   <parent>
     <groupId>io.wcm</groupId>
     <artifactId>io.wcm.tooling.parent</artifactId>
-    <version>1.1.1-SNAPSHOT</version>
-    <relativePath>../../parent/pom.xml</relativePath>
+    <version>1.1.0</version>
+    <relativePath/>
   </parent>
 
   <groupId>io.wcm.tooling.netbeans</groupId>
@@ -37,9 +37,9 @@
   <description>Module for Netbeans to support sightly autocompletion.</description>
 
   <scm>
-    <connection>scm:git:https://github.com/wcm-io/wcm-io-tooling.git</connection>
-    <developerConnection>scm:git:https://github.com/wcm-io/wcm-io-tooling.git</developerConnection>
-    <url>https://github.com/wcm-io/wcm-io-tooling</url>
+    <connection>scm:git:https://github.com/wcm-io/io.wcm.tooling.netbeans.sightly.git</connection>
+    <developerConnection>scm:git:https://github.com/wcm-io/io.wcm.tooling.netbeans.sightly.git</developerConnection>
+    <url>https://github.com/wcm-io/io.wcm.tooling.netbeans.sightly</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -226,7 +226,7 @@
   <distributionManagement>
     <site>
       <id>${site.deploy.id}</id>
-      <url>${site.deploy.url}${site.url.module.prefix}</url>
+      <url>${site.deploy.url}</url>
     </site>
   </distributionManagement>
 
